@@ -45,7 +45,9 @@ BG_IMAGE = image.load("imeges/bg.jpg")
 BG_IMAGE = transform.scale(BG_IMAGE, (WIDTH, HEIGHT))
 
 # --- ЗВУКИ ---
-
+mixer.music.load("sounds/dyo.wav") 
+mixer.music.set_volume(1) 
+mixer.music.play(-1) 
 # --- ГРА ---
 game_over = False
 winner = None
